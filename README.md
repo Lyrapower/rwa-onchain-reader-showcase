@@ -1,3 +1,5 @@
+![banner](assets/banner.png)
+
 # RWA On-Chain Reader — Showcase
 
 A verifier for tokenized real-world assets (tokenized treasuries, money-market funds). It reads supply and NAV directly from the chain and publishes a figure only when independent sources agree on it. This repository is a **showcase**: design, rules and real output. The reader source is private.
