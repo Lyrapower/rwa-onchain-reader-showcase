@@ -46,6 +46,18 @@ Registry also holds the USYC NAV oracle (Ethereum `0x74f2199AEb743f68f05943e5715
 - [docs/DESIGN.md](docs/DESIGN.md): registry schema, verification flow, confidence ladder
 - [docs/CARD_FORMAT.md](docs/CARD_FORMAT.md): the published card, field by field
 
+## Why this matters for compliance
+
+Local private key, signature, traceable record. Anyone doing compliance needs that same chain: every figure here can be traced back to a block, a contract and the issuer's own document.
+
+## See it
+
+Results before theory. Time-to-demo is 90 seconds: if it runs, you can see it. Open an issue to ask for a live walkthrough.
+
+## Not in this repo
+
+The reader source and the full registry. Happy to go deeper on the verification details. A more aggressive causal-patch approach exists and is not public yet.
+
 ## Rights
 
 See [NOTICE](NOTICE). Documentation shared for review. The reader source is not included and not licensed.
