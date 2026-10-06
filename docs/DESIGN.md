@@ -27,7 +27,7 @@ registry entry
    │
    ├─ chainId check ───────────► mismatch → SKIP
    │
-   ├─ pick block B (latest finalized from witness 1)
+   ├─ pin both witnesses to one block B
    │
    ├─ witness 1 @ B: symbol, decimals, totalSupply
    ├─ witness 2 @ B: symbol, decimals, totalSupply
@@ -44,7 +44,7 @@ registry entry
 
 | Grade | Meaning |
 |---|---|
-| `attested` | Issuer attestation matches the on-chain read |
+| `attested` | Highest grade: backed by attestation beyond the chain reads |
 | `sovereign_unwitnessed` | Read from our own node, with no commercial witness yet |
 | `witnesses_agree` | Two independent commercial RPCs, same block, identical |
 | `witness_only` | One commercial RPC only |
